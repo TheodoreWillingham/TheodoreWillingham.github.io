@@ -183,12 +183,19 @@ dd {
     text-align: center;
 }
 
-/* form {
-    
+form {
+    font-weight: 400;
 }
+
 
 form input, form textarea {
-
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
 }
-
-form input:focus, form textarea:focus {} */
+form input:focus, form textarea:focus {
+    outline: none; 
+    border-color: #BA0C2F; 
+    box-shadow: 0 0 4px rgb(186, 12, 47, .5);
+  }
